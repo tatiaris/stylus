@@ -1,111 +1,115 @@
 body {
-    font-family: "Open Sans", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    margin-bottom: 50px;
-    min-width: 1140px;
-    background: #171717;
-    color: white;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 50px;
+  min-width: 1140px;
+  background: #0b0b0b;
+  color: white;
+}
+.header .background {
+  background-color: #0b0b0b;
+  height: 60px;
 }
 .page-content.boxed > section.box {
-    background: black !important;
-    margin-bottom: 0;
-    border-radius: 4px;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    color: white;
+  background: black !important;
+  margin-bottom: 0;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  color: white;
 }
 .page-headline h1,
 .page-top h1 {
-    font-size: 36px;
-    color: #FFF;
-    line-height: 42px;
-    margin-top: 0;
-    margin-bottom: 0;
+  font-size: 36px;
+  color: #fff;
+  line-height: 42px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .page-profile .user-info .rank {
-    text-align: left;
-    font-size: 40px;
-    color: #FFF;
-    font-weight: 600;
+  text-align: left;
+  font-size: 40px;
+  color: #fff;
+  font-weight: 600;
 }
 .table-kattis > tbody > tr > td,
 .table-kattis > tbody > tr > th,
 .table-kattis > tfoot > tr > td,
 .table-kattis > tfoot > tr > th,
 .table-kattis > thead > tr > th {
-    border: none;
-    border-top-color: currentcolor;
-    border-top-style: none;
-    border-top-width: medium;
-    border-bottom-color: currentcolor;
-    border-bottom-style: none;
-    border-bottom-width: medium;
-    border-left-color: currentcolor;
-    border-left-style: none;
-    border-left-width: medium;
-    border-left: 1px solid #393939;
-    border-bottom: 1px solid #393939;
+  border: none;
+  border-top-color: currentcolor;
+  border-top-style: none;
+  border-top-width: medium;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  border-left-color: currentcolor;
+  border-left-style: none;
+  border-left-width: medium;
+  border-left: 1px solid #393939;
+  border-bottom: 1px solid #393939;
 }
 .table-kattis > thead > tr > th {
-    background: #0f0f0f;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 14px;
-    color: #fff;
-    padding: 14px 16px;
+  background: black;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  padding: 14px 16px;
 }
 .table-kattis > tbody > tr > td,
 .table-kattis > tfoot > tr > td {
-    padding: 8px 16px;
-    color: #F9F9F9;
-    background: #000;
-    background-clip: border-box;
+  padding: 8px 16px;
+  color: #f9f9f9;
+  background: #000;
+  background-clip: border-box;
 }
 #problem_list_wrapper .problem_list tr.solved td,
 .course_results td.solved,
 .problem-button-wrap .btn.solved,
 .problem-button-wrap .dataTables_paginate a.solved,
 .dataTables_paginate .problem-button-wrap a.solved {
-    background-color: #99F2A0;
-    color: black;
+  background-color: #99f2a0;
+  color: black;
 }
 #problem_list_wrapper .problem_list tr.tried td,
 .course_results td.attempted,
 .problem-button-wrap .btn.tried,
 .problem-button-wrap .dataTables_paginate a.tried,
 .dataTables_paginate .problem-button-wrap a.tried {
-    background-color: #F0BCBC;
-    color: black;
+  background-color: #f0bcbc;
+  color: black;
 }
 a {
-    text-decoration: none;
-    color: #5255ec !important;
+  text-decoration: none;
+  color: #5255ec !important;
 }
 .table-kattis > thead > tr:first-child > th {
-    border-top: 1px solid #393939 !important;
+  border-top: 1px solid #393939 !important;
 }
 .table-kattis tr > th:last-child,
 .table-kattis tr > td:last-child {
-    border-right: 1px solid #393939 !important;
+  border-right: 1px solid #393939 !important;
 }
 .table-hover > tbody > tr:hover > td,
 .table-hover > tbody > tr:hover > th,
 .table-hover > tfoot > tr:hover > td,
 .table-hover > tfoot > tr:hover > th {
-    background: #171717;
+  background: #171717;
 }
 .page-content.single {
-    background: #000;
-    margin-bottom: 20px;
-    padding: 30px;
-    border-radius: 4px;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  background: #000;
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 h2 {
-    font-size: 23px;
-    font-weight: 700;
-    color: #A2A2A2;
-    margin-bottom: 10px;
+  font-size: 23px;
+  font-weight: 700;
+  color: #a2a2a2;
+  margin-bottom: 10px;
 }
 .table-sample > tbody > tr > th,
 .table-sample > tfoot > tr > th,
@@ -113,49 +117,49 @@ h2 {
 table.sample > tbody > tr > th,
 table.sample > tfoot > tr > th,
 table.sample tr > th {
-    border-top: none;
-    font-size: 18px;
-    font-weight: 600;
-    color: #A2A2A2;
+  border-top: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #a2a2a2;
 }
 pre {
-    display: block;
-    padding: 9.5px;
-    margin: 0 0 10px;
-    font-size: 13px;
-    line-height: 1.42857143;
-    color: #fff;
-    word-break: break-all;
-    word-wrap: break-word;
-    background-color: #171717;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 1.42857143;
+  color: #fff;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #171717;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 .sidebar-info .alt-buttons {
-    padding-bottom: 10px;
-    display: flex;
+  padding-bottom: 10px;
+  display: flex;
 }
 .select2-drop {
-    width: 100%;
-    margin-top: -1px;
-    position: absolute;
-    z-index: 9999;
-    top: 100%;
-    background: #000;
-    color: #fff;
-    border: 1px solid #aaa;
-    border-top: 0;
-    border-radius: 0 0 4px 4px;
-    -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, .15);
-    box-shadow: 0 4px 5px rgba(0, 0, 0, .15);
+  width: 100%;
+  margin-top: -1px;
+  position: absolute;
+  z-index: 9999;
+  top: 100%;
+  background: #000;
+  color: #fff;
+  border: 1px solid #aaa;
+  border-top: 0;
+  border-radius: 0 0 4px 4px;
+  -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
 }
 .select2-container .select2-choice,
 .select2-container-active .select2-choice,
 .select2-container-active .select2-choices {
-    background: black;
-    box-shadow: none;
-    height: 40px;
-    line-height: 40px;
-    padding: 0 14px;
-    color: white !important;
+  background: black;
+  box-shadow: none;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  color: white !important;
 }
