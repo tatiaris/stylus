@@ -163,3 +163,7 @@ pre {
   padding: 0 14px;
   color: white !important;
 }
+img {
+  border: 0;
+  background: white;
+}
